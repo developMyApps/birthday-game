@@ -174,38 +174,38 @@ const CONFIG = {
   misiones: [
     {
       nombre: "Una cuestión de centímetros", icono: "📏",
-      intro: "Primera prueba del sistema. El objeto que buscas forma parte del equipamiento del héroe... y tiene una relación directa con su ropa de diario.",
-      celebracion: "Primer objeto recuperado. Un pantalón vaquero negro impecable. La protagonista ya puede moverse con el máximo estilo.",
+      intro: "Primera prueba del sistema. Un objeto legendario espera oculto entre lo cotidiano. Pon a prueba tu agudeza visual.",
+      celebracion: "¡Primer tesoro rescatado! Tu sentido de la deducción empieza con fuerza.",
       partes: [{
         regalo: "pantalon",
         escondite: "En el armario donde está su ropa doblada",
-        palabras: ["armario", "ropa", "doblada", "balda", "estante", "pantalones"],
-        acertijo: "En este mundo existen prendas básicas, elegantes y todoterreno, de un color oscuro que combina con absolutamente todo.\n\nSin embargo, no está colgado a la vista en una percha cualquiera. Este objeto se oculta silencioso y ordenado entre pilas de tejido.\n\nPara encontrarlo deberás abrir las puertas del lugar donde descansa tu ropa de diario... concretamente donde se dobla con esmero.\n\nEncuentra la prenda negra que te espera doblada entre las demás.",
+        palabras: ["armario", "ropa", "doblada", "balda", "estante", "pantalones", "cajon"],
+        acertijo: "Tengo dos piernas pero no puedo caminar,\nni tengo boca, aunque suelo acompañar.\nMe visto del color de la noche más oscura,\ny me adapto a cualquier aventura con soltura.\n\nNo busques en las alturas ni colgando en el aire,\nprefiero el descanso horizontal sin aspaviento ni donaire.\nAllí donde el tejido descansa en varios pisos,\naguarda quien desafía a tus centímetros más precisos.\n\n¿Qué soy y dónde aguardo?",
         pistas: [
-          "No mires en las perchas altas ni donde cuelgan chaquetas. Piensa en baldas y estantes.",
-          "Vive en tu propio armario, compartiendo espacio con otras prendas que esperan su turno perfectamente ordenadas.",
-          "Es un pantalón vaquero negro y está esperando justo en la zona del armario donde tienes tu ropa doblada."
+          "Soy una prenda clásica que divide el camino en dos y nunca pasa de moda.",
+          "Para hallarme debes abrir puertas cotidianas, pero no mires hacia perchas ni barras.",
+          "Busca donde las telas reposan en montones ordenados, esperando ser elegidas día a día."
         ],
-        pistaExtra: "Ve directamente a tu armario de la ropa: revisa entre la ropa doblada, allí está tu pantalón vaquero negro esperándote."
+        pistaExtra: "Una balda donde la ropa se pliega con mimo guarda este secreto oscuro para tus piernas."
       }],
       prueba: { q: "¿Quién ha sido nombrado supervisor oficial de la operación?", o: ["El VAR", "Rhaegal", "Groot", "El vecino de arriba"], c: 1 }
     },
 
     {
       nombre: "Supervivencia laboral", icono: "🍝",
-      intro: "Segunda prueba. El departamento de intendencia ha preparado el kit definitivo para que las comidas fuera de casa sean todo un éxito.",
-      celebracion: "Logística asegurada: nevera portátil y tuppers listos para conquistar cualquier jornada laboral.",
+      intro: "Segunda prueba. El departamento de expediciones ha preparado provisiones secretas. Se requiere buen ojo para las alturas.",
+      celebracion: "¡Logística asegurada! Has descubierto el secreto que resguarda el sustento.",
       partes: [{
         regalo: "kit",
         escondite: "En el armario de la cocina encima de la nevera",
-        palabras: ["cocina", "nevera", "arriba", "frigo", "armario", "alto", "tupper"],
-        acertijo: "El departamento de expediciones sabe lo importante que es conservar los alimentos a buena temperatura cuando sales a trabajar.\n\nEste tesoro está compuesto por recipientes estancos y un receptáculo térmico capaz de mantener el frío.\n\nCuriosamente, para encontrar este pack que conserva los alimentos... tendrás que buscar en la cocina, pero mirando bien hacia arriba, justo encima del electrodoméstico que más enfría de la casa.\n\nEncuentra el kit en las alturas de la cocina.",
+        palabras: ["cocina", "nevera", "arriba", "frigo", "armario", "alto", "tupper", "hielo"],
+        acertijo: "Fui creado para resistir el paso de las horas,\ny custodiar manjares que en tu jornada añoras.\nGuardo el frío en mi interior como un escudo fiel,\npara que ningún bocado pierda un ápice de nivel.\n\nHabito en el reino de los aromas y fogones,\npero vigilo el territorio desde las alturas de los rincones.\nJusto sobre el gigante que ruge y fabrica escarcha,\nespero en las sombras antes de ponerme en marcha.\n\n¿Dónde reposa este cofre del sustento?",
         pistas: [
-          "El tesoro sirve para llevar comida y frío... así que la cocina es el territorio obligado.",
-          "No busques en los cajones de abajo ni cerca del suelo: toca mirar arriba.",
-          "Abre el armario que se encuentra exactamente sobre la nevera. Lo que buscas está ahí arriba."
+          "Piensa en lo que necesitas para que tu comida viaje contigo y no sufra con el calor.",
+          "El lugar donde se prepara el banquete es la estancia indicada... pero no mires al suelo.",
+          "Hay un electrodoméstico que siempre está frío; el misterio duerme justo en el habitáculo que tiene sobre su cabeza."
         ],
-        pistaExtra: "Dirígete a la cocina, mira el armario situado justo encima del frigorífico/nevera y ábrelo: dentro está la nevera portátil y los tuppers."
+        pistaExtra: "Abre el mueble alto que corona la cumbre del frigorífico."
       }],
       prueba: { q: "¿Qué plato suele ser el protagonista indiscutible del menú laboral?", o: ["Paella", "Macarrones", "Tortilla", "Ensalada"], c: 1 }
     },
@@ -218,26 +218,26 @@ const CONFIG = {
         {
           regalo: "groot1",
           escondite: "Junto a la planta",
-          palabras: ["planta", "maceta", "hojas", "verde", "tierra"],
-          acertijo: "Señal detectada: un compañero pequeño, de madera y gran corazón. Tres palabras componen su dialecto.\n\nAl ser una criatura vegetal, se siente atraído por sus hermanas verdes y le gusta camuflarse entre la naturaleza viva de la casa.\n\nBusca al pequeño explorador donde hay vida clorofílica.",
+          palabras: ["planta", "maceta", "hojas", "verde", "tierra", "groot"],
+          acertijo: "Nací de corteza y madera, leal de corazón,\nmi vocabulario es breve pero sobrado de razón.\nSoy pequeño y silencioso como un brote en primavera,\ny para pasar desapercibido me arrimo a mi verdadera compañera.\n\nAllí donde la tierra respira y bebe agua sin protestar,\nhe echado raíces para verte pasar.\n\n¿Quién soy y con quién me camuflo?",
           pistas: [
-            "Tres palabras: «Yo soy Groot». Y adora los ambientes verdes.",
-            "No busques en muebles cerrados: busca donde haya tierra, macetas u hojas.",
-            "Está colocado con mucho disimulo justo al lado de una planta de la casa."
+            "Tres palabras son mi lema en cualquier galaxia.",
+            "Busca un rincón vivo de la casa, donde el verde no es pintura sino naturaleza.",
+            "Estoy a ras de tiesto, haciéndole compañía a quien hace la fotosíntesis."
           ],
-          pistaExtra: "Ve directa a la planta: el Mini Groot está colocado justo junto a ella, mimetizándose con lo verde."
+          pistaExtra: "Mira muy de cerca en la maceta o junto al follaje de la planta."
         },
         {
           regalo: "groot2",
           escondite: "En el mueble del salón junto a la tele",
-          palabras: ["salon", "mueble", "tele", "television", "pantalla", "tv"],
-          acertijo: "El pequeño ya está contigo, pero el Groot grande custodia el centro de entretenimiento de la casa.\n\nDesde su posición estratégica puede vigilar las películas, las series y los partidos que se proyectan en la pantalla.\n\nBusca al guardián mayor en el corazón del salón.",
+          palabras: ["salon", "mueble", "tele", "television", "pantalla", "tv", "groot"],
+          acertijo: "Si mi hermano es el explorador menudo y discreto,\nyo soy la muralla que guarda el gran secreto.\nNo me escondo entre la tierra ni me agacho ante el deber:\nprefiero estar donde las historias se suelen ver.\n\nPresido el centro de reunión donde descansan las miradas,\njusto al lado del portal de imágenes animadas.\n\n¿Dónde vigila el gran coloso de madera?",
           pistas: [
-            "El hermano mayor necesita buena perspectiva y le encanta la tecnología.",
-            "Se encuentra en el salón, en la zona donde se dirigen todas las miradas cuando os sentáis a descansar.",
-            "Revisa el mueble principal del salón, muy cerca de la televisión."
+            "De la misma familia vegetal que el anterior, pero con mucha más presencia y envergadura.",
+            "Se ha mudado a la estancia donde os sentáis a desconectar y compartir sobremesa.",
+            "Permanece inmóvil sobre madera noble, flanqueando la ventana mágica que proyecta cine y series."
           ],
-          pistaExtra: "Mira en el mueble del salón, justo al lado de la televisión: allí está plantado el Groot grande vigilando."
+          pistaExtra: "Inspecciona la superficie del mueble del salón, pegado a la pantalla de la televisión."
         }
       ],
       prueba: { q: "¿Cuántos meses lleváis compartiendo este hogar?", o: ["3", "6", "12", "27"], c: 1 }
@@ -246,18 +246,18 @@ const CONFIG = {
     {
       nombre: "El secreto mejor guardado", icono: "🎄",
       intro: "Cuarta prueba. El departamento de misterios ha escondido una sorpresa de proporciones épicas que llena de ilusión cualquier época del año.",
-      celebracion: "¡Un árbol de navidad para que la ilusión brille con fuerza! El tesoro más esperado ya está en tus manos.",
+      celebracion: "¡Un tesoro que desborda ilusión! La magia del hogar resplandece ahora con fuerza.",
       partes: [{
         regalo: "arbol",
         escondite: "En el armario de la galería donde está la escoba",
         palabras: ["galeria", "armario", "escoba", "limpieza", "balcon", "lavadero"],
-        acertijo: "Hay deseos que no entienden de fechas ni de calendarios. Cuando alguien sueña con iluminar su hogar con magia, cualquier momento es perfecto.\n\nEste objeto de gran envergadura ha sido resguardado en una zona utilitaria de la casa, donde el aire corre y se guardan las herramientas de limpieza cotidiana.\n\nPara llegar hasta él deberás aventurarte en la galería y abrir el armario donde descansa la fiel compañera de barrer.\n\nDescubre el secreto escondido junto a los aperos de la galería.",
+        acertijo: "Duermo en silencio esperando que el calendario dé su giro,\ncuando despierto traigo luces, estrellas y algún suspiro.\nAhora estoy recogido y ocupo poco compás,\npero cuando florezca, nadie me olvidará jamás.\n\nMe han apartado del bullicio, hacia donde el aire fresco asoma,\nallí donde los útiles de faena descansan su aroma.\nComparte rincón y guardia con la que barre el sendero,\ntras una puerta cerrada te espera este compañero certero.\n\n¿Qué duerme oculto y dónde sueña con brillar?",
         pistas: [
-          "Es un paquete alargado y voluminoso que no cabría en un cajón normal.",
-          "Sal hacia la zona exterior o galería de la casa, donde se guardan cosas de limpieza.",
-          "Abre el armario de la galería: busca en el mismo lugar donde se apoya la escoba."
+          "Es un objeto alargado y soñado por quien ama las fiestas más entrañables del año.",
+          "No está en las habitaciones principales: busca en la zona de servicio o galería exterior.",
+          "Abre el armario destinado a los utensilios que barren y dejan la casa impoluta."
         ],
-        pistaExtra: "Ve a la galería, abre el armario de la limpieza donde está la escoba: allí dentro tienes tu árbol de navidad esperando."
+        pistaExtra: "En el armario de la galería, arrinconado junto al mango de la escoba."
       }],
       prueba: { q: "¿Quién tiene la mayor ilusión festiva de toda la provincia?", o: ["Lorena", "El Grinch", "Papá Noel", "Rhaegal"], c: 0 }
     },
@@ -265,18 +265,18 @@ const CONFIG = {
     {
       nombre: "El juicio final del VAR", icono: "🟩",
       intro: "Última prueba. Se precisa la máxima precisión de árbitra para encontrar la prenda que despierta tu mayor pasión futbolera.",
-      celebracion: "¡Armadura verdiblanca asegurada! La camiseta del Elche ya está en tu poder. El VAR valida el gol por toda la escuadra.",
+      celebracion: "¡Armadura verdiblanca asegurada! El VAR valida la jugada y el gol sube al marcador con honores.",
       partes: [{
         regalo: "camiseta",
         escondite: "En el arcón del brazo del sofá",
         palabras: ["sofa", "arcon", "brazo", "cojin", "asiento", "salon"],
-        acertijo: "Has llegado al desafío definitivo.\n\nPara una árbitra con corazón franjiverde, vestir los colores de su equipo es el mayor honor.\n\nEl tesoro final está escondido en el lugar más cómodo del salón, donde os sentáis a relajaros y a vivir los partidos con emoción... pero en un compartimento secreto que se abre levantando un lateral.\n\nExamina los secretos que esconde el sofá de descanso.",
+        acertijo: "Llevo franjas de esperanza y honor en mi tejido,\nla emoción de noventa minutos en cada latido.\nPara quien imparte justicia en el verde tapiz,\nsoy la debilidad que dibuja un gesto feliz.\n\nNo cuelgo en vestidor ni me asomo al pasillo:\nreposo en el trono del descanso, oculto en un bolsillo.\nAllí donde reposas el codo y te dejas caer,\nhay una compuerta secreta que debes ascender.\n\n¿Qué pasión se esconde en ese compartimento?",
         pistas: [
-          "El sofá no solo sirve para sentarse; algunos tienen compartimentos y secretos ocultos.",
-          "No busques debajo de los cojines normales: piensa en los brazos y zonas abatibles.",
-          "Abre el arcón situado en el brazo del sofá. Dentro te espera la camiseta del Elche."
+          "Combina dos colores que hacen latir un corazón franjiverde sin neutralidad posible.",
+          "Se oculta en el mueble más codiciado del salón cuando llega la noche y el descanso.",
+          "El secreto no está bajo los cojines principales, sino en la extremidad lateral que se levanta como un cofre."
         ],
-        pistaExtra: "Levanta la tapa del arcón que hay en el brazo del sofá: dentro está tu camiseta del Elche."
+        pistaExtra: "Levanta la tapa abatible que esconde el brazo del sofá."
       }],
       prueba: { q: "¿Cuál es el equipo que te hace vibrar en cada jornada?", o: ["Elche CF", "El equipo rival", "Ninguno, soy imparcial", "El Betis"], c: 0 }
     }
